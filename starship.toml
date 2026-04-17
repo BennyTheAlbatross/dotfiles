@@ -1,0 +1,24 @@
+format = """
+[╭─](bold black)$username@$hostname $directory $git_branch$git_status $cmd_duration
+[╰─](bold black)$character
+"""
+
+[directory]
+style = "bold fg:#e5c07b"
+truncation_length = 4
+truncation_symbol = "…/"
+
+[directory.substitutions]
+"~" = ""
+
+[git_branch]
+symbol = " "
+style = "bold fg:#98c379"
+
+[git_status]
+style = "fg:#e06c75"
+
+[character]
+success_symbol = "[❯](bold fg:#98c379)"
+error_symbol = "[❯](bold fg:#e06c75)"
+

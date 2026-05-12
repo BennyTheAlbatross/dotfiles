@@ -1,4 +1,5 @@
 # Dotfiles
+```text
     ____        __  ________ __
    / __ \____  / /_/ ____(_) /__  _____
   / / / / __ \/ __/ /_  / / / _ \/ ___/
@@ -11,6 +12,7 @@
  │  nvim   tmux   git   starship        │
  │  bash   ssh    scripts   chaos       │
  └──────────────────────────────────────┘
+```
 Simple dotfile backup and synchronisation repository for terminal and development configuration.
 
 This repository stores configuration files for:

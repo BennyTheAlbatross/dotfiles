@@ -1,6 +1,7 @@
 #! /bin/bash
 # script to return alll dot files to whence they came
 # by benny. 2024-04-17
+set =euo pipfail
 
 # location of config files:
 nvim="$HOME/.config/nvim/init.lua"

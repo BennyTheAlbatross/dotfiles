@@ -1,7 +1,7 @@
 #! /bin/bash
 # script to copy all condife files to the dotfiles folder.
 # by benny. 2024-04-17
-
+set -euo pipefail
 # location of config files:
 nvim="$HOME/.config/nvim/init.lua"
 starship="$HOME/.config/starship.toml"

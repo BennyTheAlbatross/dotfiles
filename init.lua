@@ -26,17 +26,6 @@ vim.opt.tabstop = 4
 vim.opt.softtabstop = 4
 
 ------------------------------------------------------------
--- COPILOT: KEEP TAB FREE for python real tab, and use Alt-a to accept copilot suggestions
-------------------------------------------------------------
-
--- vim.g.copilot_no_tab_map = true
-
--- vim.keymap.set("i", "<M-a>", 'copilot#Accept("<CR>")', {
---  expr = true,
---  silent = true,
---  replace_keycodes = false,
--- })
-------------------------------------------------------------
 -- SMALL QUALITY-OF-LIFE (NON-CONTROVERSIAL) sugestions from copilot 
 ------------------------------------------------------------
 
